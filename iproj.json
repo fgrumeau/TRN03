@@ -1,0 +1,20 @@
+{
+    "description": "Training application for hyde",
+    "version": "0.0.1",
+    "includePath": [
+        "TRN03_SRC/QPROTOSRC"
+    ],
+    "repository": "git@github.com:fgrumeau/TRN03.git",
+    "objlib": "&verlibtrn03",
+    "curlib": "*CRTDFT",
+    "extensions": {
+        "arcad": {
+            "code": "TRN03",
+            "libraryPrefix": "U03",
+            "iasp": "*SYSBAS",
+            "validated": true
+        }
+    },
+    "buildCommand": "elias compile {branch}",
+    "compileCommand": "elias compile {branch} -f {filename}"
+}
