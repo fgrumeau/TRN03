@@ -1,9 +1,3 @@
-.*%METADATA                                                                 *
-.* %TEXT Main menu application SAMPLE                                       *
-.* %OBJTYPE *MENU                                                           *
-.* %SRCLOC *L03                                                             *
-.* %OBJLOC *L02                                                             *
-.*%EMETADATA                                                                *
 :pnlgrp dftmsgf=qcpfmsg
         submsgf=sammsgf.
 :copyr.

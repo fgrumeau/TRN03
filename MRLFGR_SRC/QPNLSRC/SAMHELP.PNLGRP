@@ -1,9 +1,3 @@
-.*%METADATA                                                                 *
-.* %TEXT Help Application Sam                                               *
-.* %OBJTYPE *PNLGRP                                                         *
-.* %SRCLOC *L03                                                             *
-.* %OBJLOC *L02                                                             *
-.*%EMETADATA                                                                *
 :pnlgrp.
 :help name=ART200.Work with Articles
 :p.Text
