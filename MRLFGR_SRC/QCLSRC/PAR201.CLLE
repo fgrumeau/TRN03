@@ -1,9 +1,3 @@
-      /*%METADATA                                                     */
-      /* %TEXT                                                        */
-      /* %OBJTYPE *MODULE                                             */
-      /* %SRCLOC *L03                                                 */
-      /* %OBJLOC *L02                                                 */
-      /*%EMETADATA                                                    */
              DCL        VAR(&PATH) TYPE(*CHAR) LEN(100)
              DCL        VAR(&CODE) TYPE(*CHAR) LEN(10) VALUE('PATH')
              DCL        VAR(&SUBCODE) TYPE(*CHAR) LEN(10) VALUE(' ')

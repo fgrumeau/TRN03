@@ -1,9 +1,3 @@
-      /*%METADATA                                                     */
-      /* %TEXT Create new order without parameter                     */
-      /* %OBJTYPE *PGM                                                */
-      /* %SRCLOC *L03                                                 */
-      /* %OBJLOC *L02                                                 */
-      /*%EMETADATA                                                    */
 
              DLTF       FILE(QTEMP/DETORD)
              MONMSG     MSGID(CPF0000)
