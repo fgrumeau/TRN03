@@ -1,16 +1,16 @@
 {
-    "description": "Training application for hyde",
+    "description": "Merlin FGrumeau",
     "version": "0.0.1",
     "includePath": [
-        "TRN03_SRC/QPROTOSRC"
+        "MRLFGR_SRC/QPROTOSRC"
     ],
     "repository": "git@github.com:fgrumeau/TRN03.git",
-    "objlib": "&verlibtrn03",
+    "objlib": "&verlibmrlfgr",
     "curlib": "*CRTDFT",
     "extensions": {
         "arcad": {
-            "code": "TRN03",
-            "libraryPrefix": "U03",
+            "code": "MRLFGR",
+            "libraryPrefix": "FGR",
             "iasp": "*SYSBAS",
             "validated": true
         }
