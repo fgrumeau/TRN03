@@ -1,0 +1,8 @@
+      *%METADATA                                                      *
+      * %TEXT Log functions                                           *
+      * %OBJTYPE *NONE                                                *
+      * %SRCLOC *L03                                                  *
+      * %OBJLOC                                                       *
+      *%EMETADATA                                                     *
+     d AddLogEntry     pr
+     d  entry                       500    value
