@@ -1,0 +1,10 @@
+      /*%METADATA                                                     */
+      /* %TEXT                                                        */
+      /* %OBJTYPE *SYSTRG                                             */
+      /* %SRCLOC *L03                                                 */
+      /* %OBJLOC *L01                                                 */
+      /*%EMETADATA                                                    */
+             ADDPFTRG   FILE(DETORD) TRGTIME(*AFTER) +
+                          TRGEVENT(*DELETE) PGM(ORD700) +
+                          RPLTRG(*YES) +
+                          TRG(ORD700_DETORD_ARTICLE_DELETE)
