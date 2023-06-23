@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "CUSTOME1.LF",
+        "text": "Customer file",
+        "objectType": "*FILE"
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": "*L01"
+    }
+}

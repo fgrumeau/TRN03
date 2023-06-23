@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "CUS250D.DSPF",
+        "text": "Display customer",
+        "objectType": "*FILE"
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": "*L02"
+    }
+}

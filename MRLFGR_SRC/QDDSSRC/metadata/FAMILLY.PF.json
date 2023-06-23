@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "FAMILLY.PF",
+        "text": "Family file",
+        "objectType": "*FILE"
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": "*L01"
+    }
+}

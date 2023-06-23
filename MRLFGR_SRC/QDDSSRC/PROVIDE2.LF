@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT Provider file                                           *
-      * %OBJTYPE *NONE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC                                                       *
-      *%EMETADATA                                                     *
                                             UNIQUE
                 R FPROV                     PFILE(PROVIDER)
                 K PROVNM

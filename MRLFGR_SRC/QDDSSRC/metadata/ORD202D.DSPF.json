@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "ORD202D.DSPF",
+        "text": "Order detail",
+        "objectType": "*FILE"
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": "*L02"
+    }
+}

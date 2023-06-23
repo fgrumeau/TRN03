@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "DETORD1.LF",
+        "text": "Detail Order File",
+        "objectType": "*FILE"
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": "*L01"
+    }
+}

@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT Article File                                            *
-      * %OBJTYPE *FILE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC *L01                                                  *
-      *%EMETADATA                                                     *
                                             UNIQUE
                 R FARTI                     PFILE(ARTICLE)
                 K ARID

@@ -1,8 +1,2 @@
-      *%METADATA                                                      *
-      * %TEXT Country file                                            *
-      * %OBJTYPE *FILE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC *L01                                                  *
-      *%EMETADATA                                                     *
                 R FCOUN                     PFILE(COUNTRY)
                 K COUNTR

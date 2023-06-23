@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT Ref. file                                               *
-      * %OBJTYPE *FILE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC *L01                                                  *
-      *%EMETADATA                                                     *
                 R REFER
       *
                   ADID           5P 0       TEXT('ADDRESS ID')

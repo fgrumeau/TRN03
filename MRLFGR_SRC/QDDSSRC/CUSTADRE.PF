@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT Customer file                                           *
-      * %OBJTYPE *NONE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC                                                       *
-      *%EMETADATA                                                     *
                                             REF(SAMREF)
                 R FCUST
                   CACUID    R               REFFLD(CUID)

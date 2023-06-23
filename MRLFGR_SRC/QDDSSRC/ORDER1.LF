@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT Order File                                              *
-      * %OBJTYPE *FILE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC *L01                                                  *
-      *%EMETADATA                                                     *
                                             UNIQUE
                 R FORDE                     PFILE(ORDER)
                 K ORID

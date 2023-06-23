@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT Provider file                                           *
-      * %OBJTYPE *FILE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC *L01                                                  *
-      *%EMETADATA                                                     *
                                             REF(SAMREF)
                 R FPROV
                   PRID      R
