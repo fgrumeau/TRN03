@@ -1,9 +1,3 @@
-      /*%METADATA                                                     */
-      /* %TEXT                                                        */
-      /* %OBJTYPE *CMD                                                */
-      /* %SRCLOC *L03                                                 */
-      /* %OBJLOC *L02                                                 */
-      /*%EMETADATA                                                    */
              CMD        PROMPT('Convert Spool to PDF')
 
              PARM       KWD(FROMFILE) TYPE(*NAME) LEN(10) MIN(1) +
