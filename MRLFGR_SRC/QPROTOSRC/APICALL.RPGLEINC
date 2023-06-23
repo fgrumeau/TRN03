@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT Prototypes for Ibm API                                  *
-      * %OBJTYPE *NONE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC                                                       *
-      *%EMETADATA                                                     *
      d crtusrspc       pr                  extpgm('QUSCRTUS')
      D  usrspc                       20
      D spc_attr                      10    const

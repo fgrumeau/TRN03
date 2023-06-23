@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "PARAMETER.RPGLEINC",
+        "text": "Parameters functions - Prototypes",
+        "objectType": ""
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": ""
+    }
+}

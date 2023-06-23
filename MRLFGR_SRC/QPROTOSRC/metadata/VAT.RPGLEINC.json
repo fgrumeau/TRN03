@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "VAT.RPGLEINC",
+        "text": "Functions VAT",
+        "objectType": ""
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": ""
+    }
+}

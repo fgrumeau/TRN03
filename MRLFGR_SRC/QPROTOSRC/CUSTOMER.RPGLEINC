@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT Function Customer                                       *
-      * %OBJTYPE *NONE                                                *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC                                                       *
-      *%EMETADATA                                                     *
       *=============================================
       * Get CUSTOMER NAME
       *=============================================
