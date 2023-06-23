@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Print customer order                                                        *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h dftactgrp(*no)
 
      ford500o   o    e             printer oflind(overflow)
@@ -13,7 +7,7 @@
      fcustome1  if   e           k disk
      farticle1  if   e           k disk
 
-      /COPY ../QPROTOSRC/PARAMETER.RPGLEINC
+      /copy qprotosrc,parameter
 
      d ord500          pr
      d   id                                like(orid)

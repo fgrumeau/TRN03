@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Work with Providers                                                         *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      fprovide1  uf a e           k disk
      fpro200d   cf   e             workstn
@@ -11,7 +5,7 @@
      F                                     sfile(sfl01:rrn01)
      F                                     Infds(Info)
 
-      /COPY ../QPROTOSRC/COUNTRY.RPGLEINC
+      /copy qprotosrc,country
 
      d articles        pr                  extpgm('ART202')
      d  id                                 like(prid)

@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Select a Country code                                                       *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      Fcountry   IF   E           K DISK
@@ -16,7 +10,7 @@
      D INFO            DS
      D  LRRN                 378    379B 0
 
-      /COPY ../QPROTOSRC/COUNTRY.RPGLEINC
+      /copy qprotosrc,country
 
      D indds           ds
      D  help                   1      1n

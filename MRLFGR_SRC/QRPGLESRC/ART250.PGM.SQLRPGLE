@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Display Article                                                             *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
        ctl-opt dftactgrp(*NO) bnddir('SAMPLE');
 
        Dcl-F  art250d workstn
@@ -13,9 +7,9 @@
        dcl-f  article1 disk keyed;
        dcl-f  artipro2 disk keyed;
 
-      /COPY ../QPROTOSRC/FAMILLY.RPGLEINC
-      /COPY ../QPROTOSRC/ARTICLE.RPGLEINC
-      /COPY ../QPROTOSRC/VAT.RPGLEINC
+      /copy qprotosrc,familly
+      /copy qprotosrc,article
+      /copy qprotosrc,vat
 
        dcl-pr Providers extpgm('ART201');
          id   like(arid);

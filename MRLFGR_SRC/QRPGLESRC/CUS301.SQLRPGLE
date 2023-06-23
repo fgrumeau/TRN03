@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Function Select a customer                                                  *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      Fcus301d   CF   E             WORKSTN
@@ -13,7 +7,7 @@
      D INFO            DS
      D  LRRN                 378    379B 0
 
-      /COPY ../QPROTOSRC/CUSTOMER.RPGLEINC
+      /copy qprotosrc,customer
 
      D indds           ds
      D  help                   1      1n

@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT                                                                             *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h dftactgrp(*no)
      fpro202d   cf   e             workstn
 
-      /COPY ../QPROTOSRC/XSS.RPGLE
-      /COPY ../QPROTOSRC/PARAMETER.RPGLEINC
+      /copy qprotosrc,Xss
+      /copy qprotosrc,Parameter
 
      d data            ds                  inz
      d   ARID                         6

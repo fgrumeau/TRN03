@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Select a Familly code                                                       *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      Ffamilly   IF   E           K DISK
@@ -16,7 +10,7 @@
      D INFO            DS
      D  LRRN                 378    379B 0
 
-      /COPY ../QPROTOSRC/FAMILLY.RPGLEINC
+      /copy qprotosrc,familly
 
      D indds           ds
      D  help                   1      1n

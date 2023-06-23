@@ -1,16 +1,10 @@
-      *%METADATA                                                                          *
-      * %TEXT Display customer                                                            *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
        ctl-opt dftactgrp(*NO) bnddir('SAMPLE');
 
        Dcl-F  cus250d workstn   indds(indds);
        dcl-f  custome1 disk keyed;
 
-      /COPY ../QPROTOSRC/CUSTOMER.RPGLEINC
-      /COPY ../QPROTOSRC/COUNTRY.RPGLEINC
+      /copy qprotosrc,customer
+      /copy qprotosrc,country
 
        Dcl-Ds indds;
          help            Ind             Pos(1);

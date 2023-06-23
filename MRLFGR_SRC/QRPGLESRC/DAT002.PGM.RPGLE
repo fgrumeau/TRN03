@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT SQL UDF Dates                                                               *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L01                                                                      *
-      *%EMETADATA                                                                         *
 
       * Status Data Structure
       *

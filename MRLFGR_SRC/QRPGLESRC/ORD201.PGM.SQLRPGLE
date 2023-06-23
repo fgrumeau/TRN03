@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Work with Customer Orders                                                   *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      h dftactgrp(*no) bnddir('SAMPLE')
 

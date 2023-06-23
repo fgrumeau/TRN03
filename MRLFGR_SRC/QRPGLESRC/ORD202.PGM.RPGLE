@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Order detail                                                                *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      h dftactgrp(*no) bnddir('SAMPLE')
 

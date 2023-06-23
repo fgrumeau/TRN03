@@ -1,12 +1,6 @@
-      *%METADATA                                                                          *
-      * %TEXT Function Article Extension                                                  *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
-      /COPY ../QPROTOSRC/ARTICLE.RPGLEINC
+      /copy qprotosrc,ARTICLE
 
      d savInfo         s           1520
      d savId           s              6

@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Prepare purchase order                                                      *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      fprovide1  if   e           k disk
      fpro202d   cf   e             workstn
@@ -11,7 +5,7 @@
      F                                     sfile(sfl01:rrn01)
      F                                     Infds(Info)
 
-      /COPY ../QPROTOSRC/PARAMETER.RPGLEINC
+      /copy qprotosrc,parameter
 
      d pro202          pr
      d  id                                 like(prid)

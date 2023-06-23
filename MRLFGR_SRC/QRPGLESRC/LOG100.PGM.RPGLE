@@ -1,15 +1,9 @@
-      *%METADATA                                                                          *
-      * %TEXT Create Log UserSpace                                                        *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      h dftactgrp(*no)
      fparameter if   e           k disk
      f                                     infds(info)
 
-      /COPY ../QPROTOSRC/APICALL.RPGLEINC
+      /copy qprotosrc,apicall
 
      d info            ds
      D  lib                   93    102

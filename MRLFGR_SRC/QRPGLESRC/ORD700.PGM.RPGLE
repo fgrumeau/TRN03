@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT                                                                             *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L01                                                                      *
-      *%EMETADATA                                                                         *
      H dftactgrp(*no)
 
      Farticle1  UF   E           K DISK
 
-      /COPY ../QPROTOSRC/LOG.RPGLEINC
+      /copy qprotosrc,log
 
      d UpdArt          pr
      d   qty                          5  0 value

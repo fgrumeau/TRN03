@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Work with article                                                           *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      h dftactgrp(*no) bnddir('SAMPLE')
 
@@ -13,8 +7,8 @@
      F                                     sfile(sfl01:rrn01)
      F                                     Infds(Info)
 
-      /COPY ../QPROTOSRC/PROVIDER.RPGLEINC
-      /COPY ../QPROTOSRC/ARTICLE.RPGLEINC
+      /copy qprotosrc,provider
+      /copy qprotosrc,article
 
      d art201          pr
      d  arid                               like(aparid)

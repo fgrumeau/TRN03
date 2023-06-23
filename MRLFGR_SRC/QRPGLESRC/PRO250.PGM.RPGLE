@@ -1,16 +1,10 @@
-      *%METADATA                                                                          *
-      * %TEXT Display Article                                                             *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
        ctl-opt dftactgrp(*NO) bnddir('SAMPLE');
 
        Dcl-F  PRO250d workstn   indds(indds);
        dcl-f  provide1 disk keyed;
 
-      /COPY ../QPROTOSRC/PROVIDER.RPGLEINC
-      /COPY ../QPROTOSRC/COUNTRY.RPGLEINC
+      /copy qprotosrc,provider
+      /copy qprotosrc,country
 
        dcl-pr Items extpgm('ART202');
          id   like(prid);

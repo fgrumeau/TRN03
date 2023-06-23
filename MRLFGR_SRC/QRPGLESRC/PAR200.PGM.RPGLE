@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Work with parameters                                                        *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      fparameter uf a e           k disk
      fpar200d   cf   e             workstn

@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT Function Customer                                                           *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      FCUSTOME1  if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/CUSTOMER.RPGLEINC
+      /copy qprotosrc,CUSTOMER
 
      d chainCUSTOME1   pr
      D P_CUID                         5  0  value

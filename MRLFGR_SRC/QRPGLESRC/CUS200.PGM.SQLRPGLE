@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Work with Customer                                                          *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      h dftactgrp(*no) bnddir('SAMPLE')
 
@@ -14,7 +8,7 @@
      F                                     sfile(sfl01:rrn01)
      F                                     Infds(Info)
 
-      /COPY ../QPROTOSRC/COUNTRY.RPGLEINC
+      /copy qprotosrc,country
 
      d orders          pr                  extpgm('ORD200')
      d  id                                 like(cuid)

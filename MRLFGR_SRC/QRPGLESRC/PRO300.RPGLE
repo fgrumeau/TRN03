@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT Functions Provider                                                          *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      FPROVIDE1  if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/PROVIDER.RPGLEINC
+      /copy qprotosrc,PROVIDER
 
      d chainPROVIDE1   pr
      D P_PRID                         5P 0  value

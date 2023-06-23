@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT Functions Country                                                           *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      FCOUNTRY   if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/COUNTRY.RPGLEINC
+      /copy qprotosrc,COUNTRY
 
      d chainCOUNTRY    pr
      D P_COID                         2A    value

@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT Edit Customer Order                                                         *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
 
      h dftactgrp(*no) bnddir('SAMPLE')
 
@@ -15,9 +9,9 @@
      F                                     sfile(sfl01:rrn01)
      F                                     Infds(Info)
 
-      /COPY ../QPROTOSRC/CUSTOMER.RPGLEINC
-      /COPY ../QPROTOSRC/ARTICLE.RPGLEINC
-      /COPY ../QPROTOSRC/VAT.RPGLEINC
+      /copy qprotosrc,customer
+      /copy qprotosrc,article
+      /copy qprotosrc,vat
 
      d  ord101         pr
      d   id

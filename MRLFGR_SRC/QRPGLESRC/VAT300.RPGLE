@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT Functions VAT                                                               *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      FVATDEF    if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/VAT.RPGLEINC
+      /copy qprotosrc,VAT
 
      d chainVATDEF     pr
      D P_VATCODE                      1A    value

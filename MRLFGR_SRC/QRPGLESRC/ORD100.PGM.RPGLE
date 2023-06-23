@@ -1,11 +1,5 @@
       *%METADATA                                                                          *
       * %TEXT Create new order                                                            *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
-      *%METADATA                                                                          *
-      * %TEXT Create new order                                                            *
       *%EMETADATA                                                                         *
       *       Before compilation
       *       ovrdbf tmpdetord detord
@@ -22,9 +16,9 @@
      F                                     sfile(sfl01:rrn01)
      F                                     Infds(Info)
 
-      /COPY ../QPROTOSRC/CUSTOMER.RPGLEINC
-      /COPY ../QPROTOSRC/ARTICLE.RPGLEINC
-      /COPY ../QPROTOSRC/VAT.RPGLEINC
+      /COPY QPROTOSRC,CUSTOMER
+      /COPY QPROTOSRC,ARTICLE
+      /COPY QPROTOSRC,VAT
 
      d  ord100         pr
      d   cuid                              options(*NOPASS)

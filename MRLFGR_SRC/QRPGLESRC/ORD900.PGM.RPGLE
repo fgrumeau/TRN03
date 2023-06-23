@@ -1,9 +1,3 @@
-      *%METADATA                                                                          *
-      * %TEXT                                                                             *
-      * %OBJTYPE *PGM                                                                     *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      forder1    if   e           k disk
      d next            s              6s 0 DTAARA('LASTORDNO')
      c     *hival        setgt     order1

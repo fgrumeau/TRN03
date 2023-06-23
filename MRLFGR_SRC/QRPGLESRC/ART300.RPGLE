@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT Function Article                                                            *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      FARTICLE1  if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/ARTICLE.RPGLEINC
+      /copy qprotosrc,ARTICLE
 
      d chainARTICLE1   pr
      D P_ARID                         6A    value

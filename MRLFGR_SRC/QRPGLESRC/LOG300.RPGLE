@@ -1,15 +1,9 @@
-      *%METADATA                                                                          *
-      * %TEXT Add entry to log                                                            *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
       *   %XREF XREFTYPE(*OBJ)   OBJ(SAMLOG) OBJTYPE(*USRSPC)   USAGE(*UPD)
 
      h nomain
 
-      /COPY ../QPROTOSRC/APICALL.RPGLEINC
-      /COPY ../QPROTOSRC/LOG.RPGLEINC
+      /copy qprotosrc,apicall
+      /copy qprotosrc,log
      d init            pr
 
      d pos             s             10i 0 based(p1)

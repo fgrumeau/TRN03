@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT Functions article familly                                                   *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      FFAMILLY   if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/FAMILLY.RPGLEINC
+      /copy qprotosrc,FAMILLY
 
      d chainFAMILLY    pr
      D P_FAID                         3     value

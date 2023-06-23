@@ -1,14 +1,8 @@
-      *%METADATA                                                                          *
-      * %TEXT Parameters functions                                                        *
-      * %OBJTYPE *MODULE                                                                  *
-      * %SRCLOC *L03                                                                      *
-      * %OBJLOC *L02                                                                      *
-      *%EMETADATA                                                                         *
      h nomain
 
      FPARAMETER if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/PARAMETER.RPGLEINC
+      /copy qprotosrc,PARAMETER
 
      d chainPARAMETER  pr
      D P_PACODE                      10A    value
