@@ -1,9 +1,3 @@
-      --%METADATA                                                     *
-      -- %TEXT ORDERCUS                                               *
-      -- %OBJTYPE *FILE                                               *
-      -- %SRCLOC *L03                                                 *
-      -- %OBJLOC *L01                                                 *
-      --%EMETADATA                                                    *
 
 CREATE VIEW ORDERCUS (
   ORID ,

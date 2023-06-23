@@ -1,9 +1,3 @@
-      /*%METADATA                                                     */
-      /* %TEXT                                                        */
-      /* %OBJTYPE *SQLPRC                                             */
-      /* %SRCLOC *L03                                                 */
-      /* %OBJLOC *L02                                                 */
-      /*%EMETADATA                                                    */
  SET PATH *LIBL ;
 
  CREATE PROCEDURE UPDATE_ON_CUS_ORD_QTY ( )

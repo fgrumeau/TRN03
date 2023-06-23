@@ -1,9 +1,3 @@
-      --%METADATA                                                     *
-      -- %TEXT Article Informations File                              *
-      -- %OBJTYPE *FILE                                               *
-      -- %SRCLOC *L03                                                 *
-      -- %OBJLOC *L01                                                 *
-      --%EMETADATA                                                    *
 
 CREATE TABLE ARTIINF (
   ARTICLE_INFO_ID FOR COLUMN ARID       CHAR(6)

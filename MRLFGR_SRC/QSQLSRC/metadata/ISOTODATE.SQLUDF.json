@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "ISOTODATE.SQLUDF",
+        "text": "Transfrom num ISO to date",
+        "objectType": "*SQLUDF"
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": "*L01"
+    }
+}

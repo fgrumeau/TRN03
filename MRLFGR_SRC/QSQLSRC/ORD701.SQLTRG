@@ -1,9 +1,3 @@
-      /*%METADATA                                                     */
-      /* %TEXT                                                        */
-      /* %OBJTYPE *SQLTRG                                             */
-      /* %SRCLOC *L03                                                 */
-      /* %OBJLOC *L01                                                 */
-      /*%EMETADATA                                                    */
 
 Create Trigger ORD701_Insert_order
 After Insert  on order

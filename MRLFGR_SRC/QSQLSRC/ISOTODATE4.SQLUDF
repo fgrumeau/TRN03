@@ -1,9 +1,3 @@
-      /*%METADATA                                                     */
-      /* %TEXT Transform num ISO to date, 0 = 01/01/1940              */
-      /* %OBJTYPE *SQLUDF                                             */
-      /* %SRCLOC *L03                                                 */
-      /* %OBJLOC *L01                                                 */
-      /*%EMETADATA                                                    */
      CREATE FUNCTION ISOTODATE40 (
        DECIMAL(8, 0) )
        RETURNS DATE
