@@ -1,9 +1,3 @@
-      *%METADATA                                                      *
-      * %TEXT                                                         *
-      * %OBJTYPE *PGM                                                 *
-      * %SRCLOC *L03                                                  *
-      * %OBJLOC *L02                                                  *
-      *%EMETADATA                                                     *
        PROCESS APOST.
       ****************************************************************
       *                                                              *
