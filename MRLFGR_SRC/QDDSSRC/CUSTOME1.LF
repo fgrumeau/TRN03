@@ -1,0 +1,9 @@
+      *%METADATA                                                      *
+      * %TEXT Customer file                                           *
+      * %OBJTYPE *FILE                                                *
+      * %SRCLOC *L03                                                  *
+      * %OBJLOC *L01                                                  *
+      *%EMETADATA                                                     *
+                                            UNIQUE
+                R FCUST                     PFILE(CUSTOMER)
+                K CUID

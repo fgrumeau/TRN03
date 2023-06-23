@@ -1,0 +1,13 @@
+      *%METADATA                                                      *
+      * %TEXT Country file                                            *
+      * %OBJTYPE *FILE                                                *
+      * %SRCLOC *L03                                                  *
+      * %OBJLOC *L01                                                  *
+      *%EMETADATA                                                     *
+                                            UNIQUE
+                                            REF(SAMREF)
+                R FCOUN
+                  COID      R
+                  COUNTR    R
+                  COISO          3
+                K COID

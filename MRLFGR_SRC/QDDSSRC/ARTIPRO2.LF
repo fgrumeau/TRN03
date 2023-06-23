@@ -1,0 +1,10 @@
+      *%METADATA                                                      *
+      * %TEXT Article provider by price                               *
+      * %OBJTYPE *FILE                                                *
+      * %SRCLOC *L03                                                  *
+      * %OBJLOC *L01                                                  *
+      *%EMETADATA                                                     *
+                R FARPR                     PFILE(ARTIPROV)
+                K APARID
+                K APPRICE
+                K APPRID

@@ -1,0 +1,8 @@
+      *%METADATA                                                      *
+      * %TEXT Family file                                             *
+      * %OBJTYPE *FILE                                                *
+      * %SRCLOC *L03                                                  *
+      * %OBJLOC *L01                                                  *
+      *%EMETADATA                                                     *
+                R FFAMI                     PFILE(FAMILLY)
+                K FADESC

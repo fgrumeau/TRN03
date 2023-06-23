@@ -1,0 +1,10 @@
+      *%METADATA                                                      *
+      * %TEXT Article provided                                        *
+      * %OBJTYPE *FILE                                                *
+      * %SRCLOC *L03                                                  *
+      * %OBJLOC *L01                                                  *
+      *%EMETADATA                                                     *
+                                            UNIQUE
+                R FARPR                     PFILE(ARTIPROV)
+                K APARID
+                K APPRID

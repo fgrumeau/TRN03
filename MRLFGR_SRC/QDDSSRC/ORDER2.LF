@@ -1,0 +1,9 @@
+      *%METADATA                                                      *
+      * %TEXT Order File                                              *
+      * %OBJTYPE *FILE                                                *
+      * %SRCLOC *L03                                                  *
+      * %OBJLOC *L01                                                  *
+      *%EMETADATA                                                     *
+                R FORDE                     PFILE(ORDER)
+                K ORCUID
+                K ORID

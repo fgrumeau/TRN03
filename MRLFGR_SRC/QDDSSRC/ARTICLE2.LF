@@ -1,0 +1,9 @@
+      *%METADATA                                                      *
+      * %TEXT Article File                                            *
+      * %OBJTYPE *FILE                                                *
+      * %SRCLOC *L03                                                  *
+      * %OBJLOC *L01                                                  *
+      *%EMETADATA                                                     *
+                R FARTI                     PFILE(ARTICLE)
+                K ARDESC
+                K ARID
