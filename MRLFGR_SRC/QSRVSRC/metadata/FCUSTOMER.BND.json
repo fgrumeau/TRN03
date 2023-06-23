@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "sourceAttributes": {
+        "name": "FCUSTOMER.BND",
+        "text": "",
+        "objectType": ""
+    },
+    "arcad": {
+        "sourceLocalization": "*L03",
+        "objectLocalization": ""
+    }
+}

@@ -1,9 +1,3 @@
-      /*%METADATA                                                     */
-      /* %TEXT                                                        */
-      /* %OBJTYPE *NONE                                               */
-      /* %SRCLOC *L03                                                 */
-      /* %OBJLOC                                                      */
-      /*%EMETADATA                                                    */
 STRPGMEXP  PGMLVL(*CURRENT) SIGNATURE('V1')
   EXPORT SYMBOL('GETARTFAMDESC')
   EXPORT SYMBOL('EXISTARTFAM')
